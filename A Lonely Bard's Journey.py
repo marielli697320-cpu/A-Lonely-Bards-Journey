@@ -768,6 +768,25 @@ def cavernOfBlood():
         narratorSays("But how did you even know that melody?")
         sleep(1)
         continuePrompt()
+        narratorSays("Your body feels heavy, your vision blurs as you feel the cavern's attempt to bind you in it's embrace")
+        sleep(1)
+        narratorSays("With what little energy you have left, you claw and scratch your way passed the ridges boulders and sharpened stalagmites")
+        narratorSays("...")
+        importantSays("You crawl and scrape.., scavenge and claw your way forward")
+        sleep(2)
+        importantSays("You feel your body being tugged at from multiple angles as you head deeper and deeper into the darkness.")
+        sleep(3)
+        importantSays("Then you pause")
+        sleep(3)
+        importantSays("You catch a momentary glimpse of yourself in a water droplet falling from above.")
+        sleep(2)
+        importantSays("You do not move... you do not breath... for fear that whatever you just saw would be your reality forever.")
+        importantSays("...")
+        importantSays("You stay like this...")
+        sleep(3)
+        importantSays("Forever")
+
+        simpleGameOver
     
     elif playerSpared and reflectedInPond:
         narratorSays("\nAs you continue your journey, you stumble upon a cavern pulsating with a sinister energy.")
